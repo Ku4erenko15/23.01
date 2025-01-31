@@ -20,7 +20,7 @@ namespace ConsoleApp1
             private string lastName;
             private int age;
 
-            // Конструктор класса
+       
             public Person(string firstName, string lastName, int age)
             {
                 this.firstName = firstName;
@@ -28,7 +28,7 @@ namespace ConsoleApp1
                 this.age = age;
             }
 
-            // Метод для вывода информации о человеке
+     
             public void PrintInfo()
             {
                 Console.WriteLine($"Имя: {firstName}");
